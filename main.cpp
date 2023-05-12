@@ -5,9 +5,10 @@
 //ビット演算子 &, |, ^, ~, <<, >>
 int main()
 {
+    int numBits = 4;
+
     int a = 3;
     int b = 6;
-    int numBits = 4;
     printf("           a      = %s\n", decToBinStr(a, numBits));
     printf("           b      = %s\n", decToBinStr(b, numBits));
     printf("\n");
@@ -15,6 +16,7 @@ int main()
     printf(" OR ...... a | b  = %s\n", decToBinStr(a | b, numBits));
     printf(" XOR ..... a ^ b  = %s\n", decToBinStr(a ^ b, numBits));
     printf("\n");
+    
     int c = 2;
     printf("           c      = %s\n", decToBinStr(c, numBits));
     printf(" NOT ..... ~c     = %s\n", decToBinStr(~c, numBits));
